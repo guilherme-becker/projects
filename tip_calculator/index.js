@@ -1,0 +1,1 @@
+let tipCalculator = new TipCalculator();
