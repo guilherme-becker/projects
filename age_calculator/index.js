@@ -1,0 +1,1 @@
+let ageCalculator = new AgeCalculator();

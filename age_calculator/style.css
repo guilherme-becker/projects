@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    background-color: #fff;
+    color: #333;
+    border-radius: 0.5rem;
+    padding: 5rem;
+
+    #age-calculator {
+        text-align: center;
+
+        h1,
+        p,
+        label,
+        input,
+        button {
+            margin: 0.6rem 0;
+            padding: 0.2rem 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        p,
+        label,
+        input,
+        button {
+            font-size: 1.2rem;
+        }
+
+        button {
+            background-color: #ffffff;
+            color: #7e4f7e;
+            border: 0.1rem solid #7e4f7e;
+            cursor: pointer;
+            padding: 0.4rem 0.2rem;
+            display: block;
+            width: 100%;
+            border-radius: 0.5rem;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background-color: #7e4f7e;
+            color: #ffffff;
+        }
+
+        button:focus {
+            outline: 0.1rem solid #7e4f7e;
+        }
+
+        #display {
+            font-size: 2rem;
+        }
+
+    }
+
+}
