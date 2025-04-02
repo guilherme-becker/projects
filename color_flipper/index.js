@@ -1,0 +1,1 @@
+let colorFlipper = new ColorFlipper();
