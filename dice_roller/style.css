@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    color: #333333;
+}
+
+.container {
+    margin: 2rem 0;
+
+    #dice-roll {    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            margin: 2rem 0;
+        }
+
+        #dice {
+            text-align: center;
+            font-size: 6rem;
+            margin: 2rem 0;
+            animation-duration: 2s;
+        }
+
+        button {
+            padding: 0.8rem 1rem;
+            background-color: #fff;
+            color: #420d42;
+            border: 0.2rem solid #420d42;
+            cursor: pointer;
+            border-radius: 0.4rem;
+            font-size: 2rem;            
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #420d42;
+            color: #fff;
+        }
+
+    }
+
+    #dice-history {
+        margin: 2rem 0;
+
+        .roll {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #e9e9e9;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0.6rem;
+
+            .roll-num,
+            .roll-icon {
+                font-size: 1.8rem;
+            }
+
+        }
+
+    }
+
+}
+
+.roll-dice {
+    animation-name: roll-dice;
+}
+
+@keyframes roll-dice {
+    25% {
+        transform: rotateZ(90deg);
+    }
+    50% {
+        transform: rotateZ(180deg);
+    }
+    75% {
+        transform: rotateZ(270deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}

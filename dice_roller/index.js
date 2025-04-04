@@ -1,0 +1,1 @@
+let rollDiceSimulator = new RollDiceSimulator();
