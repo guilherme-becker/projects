@@ -1,0 +1,1 @@
+let rockPaperScissors = new RockPaperScissors();
