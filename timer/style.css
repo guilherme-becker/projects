@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem;
+}
+
+.container {
+
+    #timer {
+        margin: 3rem 0;
+        font-size: 7rem;
+        color: #7e184b;
+    }
+
+    .btns {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        button {
+            cursor: pointer;
+            border: .1rem solid #7e184b;
+            background-color: #7e184b;
+            color: #ffffff;
+            font-size: 2rem;
+            outline: none;
+            padding: 1rem 0.6rem;
+            border-radius: 0.6rem;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background-color: #6e1944;
+        }
+
+        button[disabled] {
+            cursor: default;
+            background-color: #6e1944;
+        }
+
+    }    
+
+}
