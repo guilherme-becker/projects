@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(lightgreen, lightblue) no-repeat;
+    min-height: 100vh;
+
+    .container {
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        h1,
+        div {
+            margin: 1rem 0;
+        }
+
+        .temperature {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        label,
+        input {
+            font-size: 1.5rem;
+        }
+
+    }
+
+}
