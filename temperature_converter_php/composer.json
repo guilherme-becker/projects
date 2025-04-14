@@ -1,0 +1,16 @@
+{
+    "name": "guilherme/temperatureconverter",
+    "description": "temperature converter, php beginner project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Guilherme Becker"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Temperature\\": "src/"
+        }
+    },
+    "require": {}
+}
