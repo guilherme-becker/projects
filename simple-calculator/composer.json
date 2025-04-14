@@ -1,0 +1,16 @@
+{
+    "name": "guilherme/simplecalculator",
+    "description": "simple calculator php beginner project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Simplecalculator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guilherme Becker"
+        }
+    ],
+    "require": {}
+}
