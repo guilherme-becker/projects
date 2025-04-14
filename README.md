@@ -1,1 +1,1 @@
-# javascript beginner projects
+# PHP and Javascript beginner projects
