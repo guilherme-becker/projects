@@ -1,0 +1,16 @@
+{
+    "name": "guilherme/currencyconverter",
+    "description": "beginner project with php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Currencyconverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guilherme Becker Koppe"
+        }
+    ],
+    "require": {}
+}
