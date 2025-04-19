@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+    padding: 3rem;
+
+    .btns {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #c4c2c2;
+
+        .tab-btn {
+            font-size: 1.4rem;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            padding: 0.8rem;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .tab-btn:hover {
+            background-color: #d7e5f1;
+        }
+
+        .tab-btn.active {
+            background-color: #b8ccdd;
+        }
+
+    }
+
+    .panels {
+        padding: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .d-none {
+        display: none;
+    }
+
+    .opacity-none {
+        opacity: 0;
+    }
+
+}
