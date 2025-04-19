@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.container {
+    padding: 1rem 0;
+
+    .bar-1,
+    .bar-2,
+    .bar-3 {
+        width: 2em;
+        height: 0.3rem;
+        background-color: #000000;
+        margin: 0.3rem;
+        transition: 0.2s;   
+    }
+
+}
+
+.active {
+    
+    .bar-2 {
+        opacity: 0;
+    }
+
+    .bar-1 {
+        transform: translate(0, 8px) rotate(45deg);
+    }
+
+    .bar-3 {
+        transform: translate(0, -11px) rotate(-45deg);
+    }
+
+}
