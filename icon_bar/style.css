@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-vertical {
+    max-width: 25%;
+}
+
+.container{
+    max-width: fit-content;
+    margin: auto;
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        background-color: #333333;
+        color: #ffffff;
+
+        li {
+            padding: 1.6rem;
+            transition: 0.2s;
+            text-align: center;
+        }
+
+        li:hover {
+            background-color: #21a036;
+        }
+
+        .active {
+            background-color: #21a036;
+        }
+
+        i {
+            font-size: 1.4rem;
+        }
+
+    }
+
+    .vertical {
+        flex-direction: column;
+    }
+
+}
