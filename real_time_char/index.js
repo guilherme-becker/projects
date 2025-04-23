@@ -1,0 +1,1 @@
+let realTimeCounter = new RealTimeCounter();
