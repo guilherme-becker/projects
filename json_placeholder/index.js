@@ -1,0 +1,1 @@
+let json = new JsonPlaceholder('/users');
