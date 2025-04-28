@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Full page tabs</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="tabs-container">
+            <button type="button" id="home" data-color="red">Home</button>
+            <button type="button" id="news" data-color="green">News</button>
+            <button type="button" id="about" data-color="blue">About</button>
+            <button type="button" id="contact" data-color="purple">Contact</button>
+        </div>
+        <div class="content-container">
+            <div class="content home active" data-display="default">
+                <h3>Home</h3>
+                <p>This is the Home tab</p>
+            </div>
+            <div class="content news">
+                <h3>News</h3>
+                <p>This is the News tab</p>
+            </div>
+            <div class="content about">
+                <h3>About</h3>
+                <p>This is the About tab</p>
+            </div>
+            <div class="content contact">
+                <h3>Contact</h3>
+                <p>This is the Contact tab</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
