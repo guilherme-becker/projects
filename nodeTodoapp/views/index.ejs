@@ -12,7 +12,12 @@
         <div class="form">
             <% if(err) { %>
                 <div class="error">
-                    <p>error</p>
+                    <p><%= err %></p>
+                </div>
+            <% } %>
+            <% if(success) { %>
+                <div class="error">
+                    <p><%= success %></p>
                 </div>
             <% } %>
             <form action="/" method="post">
@@ -23,10 +28,22 @@
         </div>
         <div class="list">
             <% itemList.forEach(item => { %>
-                <p><%= item.to_do %></p>
+                <div class="item">
+                    <% if(item.completed === 1) { %>
+                        <p><s><%= item.to_do %></s></p>
+                    <% } else { %>
+                        <p><%= item.to_do %></p>
+                    <% } %>
+                    <div class="btns">
+                        <a data-route="/update/<%= item.id %>" class="btn-update">Editar</a>
+                        <a data-route="/delete/<%= item.id %>" class="btn-delete">Excluir</a>
+                    </div>
+                </div>
             <% }); %>
         </div>
     </div>
+
+    <script src="/js/app.js"></script>
 
 </body>
 </html>
