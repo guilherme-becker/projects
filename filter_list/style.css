@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 80%;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    .search-input {
+        margin: 1rem 0;
+    
+        input {
+            padding: 0.4rem;
+            font-size: 1.2rem;
+        }
+
+    }
+
+    .results {
+        margin: 1rem 0;
+
+        p {
+            padding: 0.6rem;
+            font-size: 1.2rem;
+        }
+
+    }
+
+}
